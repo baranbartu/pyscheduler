@@ -1,4 +1,4 @@
-from pyscheduler import schedule, TaskTrigger
+from pyscheduler import schedule
 
 
 @schedule('* * * * *')
@@ -12,4 +12,4 @@ def crawl_task():
 
 
 if __name__ == '__main__':
-    TaskTrigger()
+    print 'Test started.'

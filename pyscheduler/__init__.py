@@ -40,6 +40,11 @@ class TaskTrigger(Thread):
         self.start()
 
     def run(self):
+        LOGGER.warn(
+            'Scheduler will be starting until all scheduled tasks have been registered.',
+            extra={'function': __name__})
+        time.sleep(5)
+        LOGGER.warn('Scheduler has started.', extra={'function': __name__})
         while True:
             for task, kwargs in schedule.tasks.items():
                 entry = CronTab(kwargs['cron'])
