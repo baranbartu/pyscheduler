@@ -12,7 +12,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 version = '0.0.1'
 
 setup(
-    name='pyscheduler',
+    name='python-scheduler',
     version=version,
     description='Create scheduled tasks at runtime easily',
     long_description=README,

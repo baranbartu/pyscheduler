@@ -6,7 +6,7 @@ Create scheduled tasks at runtime easily.
 # Installation
 
 ```bash
-pip install pyscheduler
+pip install python-scheduler
 ```
 
 # Example
