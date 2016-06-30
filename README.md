@@ -1,3 +1,10 @@
 # pyscheduler
+Task Scheduler
 
-under development
+Create scheduled tasks at runtime easily.
+
+# Installation
+
+```bash
+pip install pyscheduler
+```
