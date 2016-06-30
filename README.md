@@ -26,3 +26,6 @@ def crawl_task():
 It won't definitely create any cronjob on the os level. All tasks will be executed on runtime.
 
 Every cron syntax can be used.
+
+Concurrency are not considered during development. 
+That's why, it is so lightweight library for single process applications for now.
